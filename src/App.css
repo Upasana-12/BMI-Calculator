@@ -1,0 +1,60 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+} */
+
+.container{
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  overflow-y : hidden;
+  /* color: white; */
+  color: rgb(236, 205, 205);
+}
+
+.heading{
+   font-size: 38px; 
+}
+.box{
+  margin-top: 0%;
+  overflow-y : hidden;
+}
+input{
+  width: 220px;
+  height: 26px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label{
+  color: rgb(187, 132, 132);
+}
+
+button{
+  background-color: rgb(106, 148, 134);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(26, 17, 17);
+}
